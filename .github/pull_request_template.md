@@ -1,24 +1,37 @@
 
-Describe the big picture of your changes here to communicate to the maintainers why we should accept this pull request. If it fixes a bug or resolves a feature request, be sure to link to that issue.
+## Tipo de PR
+- [ ] 💻 Desenvolvimento de código
+- [ ] 📚 Documentação/Artefato
+- [ ] 🐛 Bug/Correção
+- [ ] 🏗️ Arquitetura/Design
 
-## Types of changes
+## 📝 Descrição
+_Descreva brevemente o que foi alterado e por quê_
 
-What types of changes does your code introduce to <repo_name>?
-_Put an `x` in the boxes that apply_
+## Issue Relacionada
+Fecha #(número da issue)
 
-- [ ] Bugfix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] Documentation Update (if none of the other choices apply)
+## 📋 Checklist
 
-## Checklist
+### Antes de Submeter
+- [ ] Li o [CONTRIBUTING.md](../CONTRIBUTING.md)
+- [ ] Existe issue relacionada e referenciada
+- [ ] Discuti a mudança com o grupo antes de submeter
 
-_Put an `x` in the boxes that apply. You can also fill these out after creating the PR. If you're unsure about any of them, don't hesitate to ask. We're here to help! This is simply a reminder of what we are going to look for before merging your code._
+### Código & Documentação
+- [ ] Meu código segue os padrões do projeto
+- [ ] Mantive a estrutura de arquivos e convenções
+- [ ] Adicionei comentários em partes complexas
+- [ ] Atualizei documentação afetada
 
-- [ ] I have read the CONTRIBUTING.md doc.
-- [ ] I have added necessary documentation (if appropriate).
-- [ ] Any dependent changes have been merged and published in downstream modules.
+### Qualidade
+- [ ] Verifiquei possíveis impactos em outros componentes
+- [ ] Minha solução está alinhada com decisões anteriores
+- [ ] Não deixei código comentado ou não-utilizado
+- [ ] Commits têm mensagens claras e descritivas
 
-## Further comments
+## 📸 Screenshots/Exemplos
+_Se aplicável, adicione imagens ou exemplos da mudança_
 
-If this is a relatively large or complex change, kick off the discussion by explaining why you chose the solution you did and what alternatives you considered, etc...
+## 💡 Notas Adicionais
+_Qualquer contexto adicional importante para revisão_
