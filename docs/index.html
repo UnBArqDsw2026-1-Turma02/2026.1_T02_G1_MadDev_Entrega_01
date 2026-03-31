@@ -13,8 +13,18 @@
   <script>
     window.$docsify = {
       loadSidebar: true,
-      name: 'Repositorio Template',
-      repo: 'https://github.com/UnBArqDsw2025-1-Turma01/RepositorioTemplateEntrega1'
+      name: 'Dungeon Crawler',
+      repo: 'https://github.com/matix0/2026.1_T02_G1_MadDev_Entrega_01',
+      hook: {
+        beforeEach(html) {
+          // Extrai o título (primeiro H1) do conteúdo
+          const titleMatch = html.match(/<h1[^>]*>([^<]+)<\/h1>/);
+          if (titleMatch && titleMatch[1]) {
+            document.title = titleMatch[1];
+          }
+          return html;
+        }
+      }
     }
   </script>
   <!-- Docsify v4 -->
