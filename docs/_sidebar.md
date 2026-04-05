@@ -2,6 +2,7 @@
 
 - [Home](/README)
 - [Projetos](/Projeto/Projeto)
+- [Estimativa de Custo](/Projeto/Estimativas)
 
 - **Base**
   - [1. Desenho de Software (Base)](/Base/1.Base)
