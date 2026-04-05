@@ -1,0 +1,153 @@
+# Estimativa de Custo de Software
+
+A estimativa de custo é uma etapa fundamental no planejamento de projetos de software, pois permite prever esforço, tempo e recursos necessários.
+
+O COCOMO (Constructive Cost Model) é um modelo de estimativa criado por Barry Boehm para prever esforço, prazo e custo em projetos de software. A ideia principal é usar o tamanho do sistema (em KLOC, mil linhas de código) para estimar quantas pessoas-mês serão necessárias.
+
+O modelo possui versões com diferentes níveis de detalhe. Neste trabalho foi adotado o COCOMO Básico, adequado para uma estimativa inicial, com foco em simplicidade e planejamento acadêmico.
+
+## Descrição do Projeto
+
+O projeto consiste no desenvolvimento de um jogo 2D no estilo roguelike, com funcionalidades como:
+
+- Sistema de combate
+- Sistema de inimigos
+- Inventário
+- Progressão (XP e níveis)
+- HUD (vida, moedas e status)
+- Menu e configurações
+
+A equipe é composta por 8 integrantes:
+
+- 3 desenvolvedores experientes
+- 5 desenvolvedores iniciantes
+
+Devido à heterogeneidade da equipe e à complexidade do sistema, o projeto apresenta características de complexidade moderada.
+
+## Escolha do Modelo
+
+O modelo escolhido foi o COCOMO Básico.
+
+A classificação do projeto é do tipo **Semi-destacado**, pois:
+
+- A equipe possui níveis mistos de experiência
+- O sistema possui complexidade intermediária
+- Existem requisitos moderadamente rígidos
+
+Projetos semi-destacados são caracterizados por equipes mistas e sistemas de complexidade média.
+
+## Estimativa de Tamanho
+
+A estimativa do tamanho do software foi baseada nas funcionalidades identificadas e na complexidade do sistema.
+
+Foi considerado:
+
+- Projeto acadêmico
+- Jogo 2D com múltiplos sistemas
+- Uso de lógica de gameplay e interface
+
+Estimativa adotada:
+
+**10.000 linhas de código (10 KLOC)**
+
+## Glossário das Fórmulas
+
+- **KLOC**: quantidade de linhas de código em milhares.
+- **E (Esforço)**: trabalho total estimado, em pessoas-mês.
+- **T (Tempo)**: duração estimada do projeto, em meses.
+- **N (Equipe)**: número médio de pessoas necessárias.
+- **Pessoas-mês**: unidade de esforço (ex.: 1 pessoa por 1 mês).
+
+## Cálculo do Esforço
+
+A fórmula do COCOMO Básico para projetos semi-destacados é:
+
+`E = 3.0 x (KLOC)^1.12`
+
+Substituindo:
+
+`E = 3.0 x (10)^1.12`
+
+`E ~= 40 pessoas-mês`
+
+## Estimativa de Tempo
+
+A fórmula para o tempo é:
+
+`T = 2.5 x (E)^0.38`
+
+Substituindo:
+
+`T = 2.5 x (40)^0.38`
+
+`T ~= 10 meses`
+
+## Tamanho da Equipe
+
+Número ideal de pessoas:
+
+`N = E / T`
+
+`N = 40 / 10`
+
+`N ~= 4 pessoas`
+
+Embora a equipe possua 8 integrantes, a produtividade efetiva é reduzida devido à presença de membros iniciantes, aproximando-se de uma equipe de 4 a 5 desenvolvedores.
+
+## Contexto e Premissas da Estimativa
+
+- Esta estimativa foi elaborada para fins acadêmicos.
+- O cronograma real da disciplina é inferior a 3 meses.
+- A equipe não será remunerada durante a execução do projeto.
+- O custo apresentado neste documento é um valor de referência teórica de esforço equivalente, e não um orçamento real.
+- O COCOMO Básico foi utilizado como apoio ao planejamento e à análise inicial do projeto.
+
+## Limitações do Modelo
+
+Embora o COCOMO Básico seja útil para uma estimativa inicial, seus resultados devem ser interpretados como aproximações. O modelo utiliza principalmente o tamanho do software (KLOC) e não representa, com precisão, diversos fatores da execução real do projeto.
+
+Entre os fatores não capturados integralmente, destacam-se:
+
+- Uso de ferramentas e automações que podem aumentar a produtividade
+- Retrabalho decorrente de mudanças de requisito
+- Disponibilidade da equipe ao longo do semestre
+- Curva de aprendizado de tecnologias e práticas de desenvolvimento
+- Diferenças de produtividade entre membros experientes e iniciantes
+
+Assim, os valores de esforço, prazo e custo apresentados neste documento não devem ser lidos como números exatos, mas como indicadores de referência para planejamento e comparação de cenários.
+
+## Estimativa de Custo
+
+Considerando um custo médio de R$ 3.000 por desenvolvedor/mês:
+
+`Custo total = 40 x 3000`
+
+`Custo total ~= R$ 120.000`
+
+## Análise dos Resultados
+
+Os resultados indicam que:
+
+- O projeto possui duração estimada de aproximadamente 10 meses
+- A equipe ideal é menor do que a equipe atual
+- A presença de membros iniciantes impacta diretamente na produtividade
+
+No contexto acadêmico deste projeto, com prazo reduzido e sem remuneração, os resultados devem ser interpretados como indicadores comparativos de esforço e complexidade.
+
+Isso evidencia a importância de planejamento e distribuição adequada de tarefas.
+
+## Referências
+
+- https://2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_I/estimativas_de_custo/
+- Material da disciplina de Arquitetura e Desenho de Software.
+- https://www.youtube.com/watch?v=JMYJOws9Q_o&t=797s (Playlist de gestão de projetos)
+
+## Declaração de Uso de IA
+
+Declara-se o uso de ferramenta de inteligência artificial exclusivamente para apoio na revisão linguística (ortografia e gramática) deste documento. 
+
+## Histórico de Versionamento
+
+| Nome                                        | Alteração                | Versão | Data       |
+| ------------------------------------------- | ------------------------ | ------ | ---------- |
+| [Breno Lucena](https://github.com/BrenoLUCO/) | Adição das informações referentes a Estimativas | v0.1 | 03/04/2026 |
