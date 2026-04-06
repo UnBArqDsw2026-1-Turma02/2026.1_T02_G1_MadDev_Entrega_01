@@ -1,10 +1,40 @@
-# RepositorioTemplate
+# Dungeon Crawler - MadDev 
 
-Repositório que deve ser utilizado como template inicial pelos grupos da matéria de Arquitetura e Desenho de Software.
+**Código da Disciplina**: FGA0208<br>
+**Número do Grupo**: 01<br>
+**Entrega**: 01<br>
 
-## Introdução
+## Alunos
 
-Este repositório traz um template de repo de documentação a ser seguido pelos grupos de arquitetura e desenho de software.
+| Matrícula | Aluno                                                           |
+| --------- | --------------------------------------------------------------- |
+| 202017343 | [Breno Lucena Cordeiro](https://github.com/BrenoLUCO)           |
+| 211061716 | [Felipe Santos Veríssimo](https://github.com/verissimoo)        |
+| 221022631 | [Kauã Richard de Souza Cavalcante](https://github.com/rich4rd1) |
+| 190112093 | [Lucas Freire Lopes](https://github.com/AguionStryke)           |
+| 202016963 | [Mateus Vinicius Vieira](https://github.com/matix0)             |
+| 211062830 | [Philipe Barbosa de Morais](https://github.com/PhMoraiis)       |
+| 232014754 | [Pietro Calegari Visentin](https://github.com/Pietrocv)         |
+| 200062891 | [Vinicius Fernandes Rufino](https://github.com/RufinoVfR)       |
+
+
+## Sobre 
+Repositório destinado a documentar as entregas do Projeto MadDev, que consiste no desenvolvimento de um jogo estilo dungeon crawler, onde o jogador controla um personagem que deve explorar um labirinto gerado proceduralmente, enfrentando inimigos e coletando itens para progredir. O projeto utiliza a linguagem de progamação GDscript, e é desenvolvido utilizando a engine de jogos Godot.
+Contextualize, usando referências, links, e outros materiais como fontes.
+
+## Screenshots da Primeira Entrega
+
+<img src="Assets/richpicture.jpeg" alt="Screenshot 1" width="700" style="max-width: 100%; height: auto;" />
+<img src="Assets/protbaixa1.jpeg" alt="Screenshot 2" width="700" style="max-width: 100%; height: auto;" />
+
+## Há algo a ser executado?
+
+( ) SIM
+
+(x) NÃO
+
+Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
+
 
 ## Tecnologia
 
